@@ -45,6 +45,12 @@
   text-align: left;
 }
 
+.homePage{
+  background-image: url("Images/Bunny.webp");
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
