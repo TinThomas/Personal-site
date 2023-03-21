@@ -3,13 +3,14 @@
   margin: 0;
   font-family:Arial, Helvetica, sans-serif;
   color: "#333";
+  background-color: #2b1b46;
 }
 
 .navbar{
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid firebrick;
 }
@@ -33,9 +34,15 @@
 }
 
 .content {
-  max-width: 600px;
-  margin: 40px auto;
+  max-width: 90%;
+  margin: 10px auto;
   padding: 20px;
+  height: 100%;
+}
+
+.pageHeader{
+  color: #026bfd;
+  text-align: left;
 }
 
 body {
