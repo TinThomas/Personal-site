@@ -52,6 +52,26 @@
   height: 800px;
 }
 
+.homeNavButtons{
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 20px;
+  width: fit-content;
+  background-color: #f1356d;
+  display: flex;
+  flex-direction: column;
+}
+
+.navButton{
+  color: #f1356d;
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  font-size: large;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
