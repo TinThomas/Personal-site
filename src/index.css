@@ -70,6 +70,10 @@
   height: 50px;
   width: 150px;
   font-size: large;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+  background-color: #6d598f;
 }
 
 body {
