@@ -9,6 +9,7 @@
 .App{
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100vh;
 }
 
@@ -18,7 +19,7 @@
   align-items: center;
   width: 80%;
   max-width: 90%;
-  margin: 0 auto;
+  margin-bottom: 1vw;
   border-bottom: 1px solid firebrick;
 }
 
@@ -42,10 +43,13 @@
 
 .content {
   flex-grow: 1;
+  width: 100vw;
 }
 
 .pageHeader{
   color: #026bfd;
+  margin-left: 10%;
+  width: fit-content;
   text-align: left;
 }
 
@@ -63,12 +67,13 @@
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 0;
+  margin-left: 10%;
   margin-right: 20px;
   width: fit-content;
-  background-color: #f1356d;
+  background-color: #6a0e2a;
   display: flex;
   flex-direction: column;
+  border-left: 4px solid #6928d9;
 }
 
 .navButton{
