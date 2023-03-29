@@ -13,6 +13,9 @@ const Home = () => {
           <Link to="/pending-construction">
             <button className="navButton">Portfolio</button>
           </Link>
+          <Link to="/pending-construction">
+            <button className="navButton">Contact</button>
+          </Link>
         </div>
 
         <img className="homePageImage" src={profilePicture} alt="Me">
