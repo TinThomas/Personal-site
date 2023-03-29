@@ -30,6 +30,7 @@
 }
 
 .navbar h1 {
+  font-size: 2em;
   color: var(--text-color);
 }
 
@@ -41,9 +42,10 @@
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
+  padding: 4px;
   color: var(--text-color);
   font-weight: bold;
+  border-left: 4px solid var(--highlight-color);
 }
 
 .navbar a:hover {
@@ -56,7 +58,7 @@
 }
 
 .pageHeader{
-  color: #026bfd;
+  color: var(--text-color);
   margin-left: 10%;
   width: fit-content;
   text-align: left;
@@ -83,6 +85,7 @@
   margin-left: 10%;
   margin-right: 20px;*/
   width: fit-content;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   border-left: 4px solid var(--highlight-color);
