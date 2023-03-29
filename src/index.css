@@ -9,7 +9,7 @@
 
 #root{
   --main-bg-color: #e1e1e1;
-  --highlight-color: rgb(132 41 159);
+  --highlight-color: rgb(118, 0, 196);
   --block-color: rgb(74, 74, 74);
   --text-color: rgb(71, 71, 71);
   --content-margin: 5%;
@@ -26,7 +26,7 @@
   padding: 2% var(--content-margin) 2% var(--content-margin);
   max-width: 100%;
   margin-bottom: 1vw;
-  border-bottom: 4px solid var(--block-color);
+  /*border-bottom: 4px solid var(--block-color);*/
 }
 
 .navbar h1 {
@@ -83,7 +83,6 @@
   margin-left: 10%;
   margin-right: 20px;*/
   width: fit-content;
-  background-color: #6a0e2a;
   display: flex;
   flex-direction: column;
   border-left: 4px solid var(--highlight-color);
@@ -96,15 +95,15 @@
   width: 150px;
   font-size: 1.5em;
   border-radius: 5px;
+  margin: 1vh;
   cursor: pointer;
   border: none;
-  background-color: var(--highlight-color);
-  box-shadow: 0 0 10px 2px var(--highlight-color);
+  background-color: var(--block-color);
 }
 
 .navButton:hover{
-  background-color: #574773;
-  box-shadow: 0 0 10px 3px #574773;
+  background-color: var(--highlight-color);
+  /*box-shadow: 0 0 10px 3px var(--highlight-color);*/
 }
 
 body {
