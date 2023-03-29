@@ -7,12 +7,14 @@ const Navbar = () => {
       <div className="links">
         <Link to="/">Home</Link>
         <Link to="/pending-construction">About me</Link>
-        <Link className="dropdown" to="/pending-construction">Portfolio
+        <div className="dropdown">
+          <Link to="/pending-construction">Portfolio</Link>
           <div className="dropdown-content">
-            <p>Item one</p>
-            <p>Item two</p>
+            <p className="dropdown-item">Item one</p>
+            <p className="dropdown-item">Item two</p>
           </div>
-        </Link>
+        </div>
+
 
         <Link to="/pending-construction">Contact</Link>
       </div>
