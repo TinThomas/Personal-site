@@ -9,24 +9,22 @@
 
 #root{
   --main-bg-color: #e1e1e1;
-  --highlight-color: rgb(65, 36, 88);
+  --highlight-color: rgb(132 41 159);
   --block-color: rgb(74, 74, 74);
   --text-color: rgb(71, 71, 71);
+  --content-margin: 5%;
 }
 
 .App{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
   height: 100vh;
 }
 
 .navbar{
-  padding: 20px;
   display: flex;
   align-items: center;
-  width: 80%;
-  max-width: 90%;
+  padding: 2% var(--content-margin) 2% var(--content-margin);
+  max-width: 100%;
   margin-bottom: 1vw;
   border-bottom: 4px solid var(--block-color);
 }
@@ -65,21 +63,25 @@
 }
 
 .homePage{
-  background-image: url("Images/Profile-picture.jpg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  display: flex;
-  flex-direction: column;
-  background-size: 40vw;
   height: 100%;
+}
+
+.homePageContent{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5% 0 5%;
+}
+
+.homePageImage{
+  height: 60vh;
 }
 
 .homeNavButtons{
   text-align: left;
-  margin-top: 20px;
+  /*margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10%;
-  margin-right: 20px;
+  margin-right: 20px;*/
   width: fit-content;
   background-color: #6a0e2a;
   display: flex;
@@ -89,7 +91,7 @@
 
 .navButton{
   color: var(--main-bg-color);
-  margin: 10px;
+  /*margin: 10px;*/
   height: 50px;
   width: 150px;
   font-size: 1.5em;
