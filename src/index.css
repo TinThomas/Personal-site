@@ -115,6 +115,8 @@
 
 .homePageImage{
   height: 60vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px var(--highlight-color);
 }
 
 .homeNavButtons{
