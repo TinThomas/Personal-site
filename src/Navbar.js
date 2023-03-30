@@ -10,8 +10,8 @@ const Navbar = () => {
         <div className="dropdown">
           <Link to="/pending-construction">Portfolio</Link>
           <div className="dropdown-content">
-            <p className="dropdown-item">Item one</p>
-            <p className="dropdown-item">Item two</p>
+            <Link to="/pending-construction" className="dropdown-item">Item one</Link>
+            <Link to="/pending-construction" className="dropdown-item">Item two</Link>
           </div>
         </div>
 

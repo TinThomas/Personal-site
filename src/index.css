@@ -77,16 +77,18 @@
 } */
 
 .dropdown:hover .dropdown-content{
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
-.dropdown-item{
+.navbar .dropdown-item{
   box-sizing: border-box;
   width: 100%;
   text-align: left;
   padding: 4px;
   color: var(--text-color);
   background-color: #e1e1e100;
+  border-left: 0px solid var(--highlight-color);
 }
 
 .content {
