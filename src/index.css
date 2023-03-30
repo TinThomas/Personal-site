@@ -49,9 +49,9 @@
   border-left: 4px solid var(--highlight-color);
 }
 
-/* .navbar a:hover {
+.navbar a:hover {
   color: var(--highlight-color);
-} */
+}
 
 .dropdown{
   position: relative;
