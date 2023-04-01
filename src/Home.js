@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import profilePicture from "./Images/Profile-picture.jpg"
+import profilePicture from "./Images/Profile-picture-small.jpg"
 
 const Home = () => {
   return (
