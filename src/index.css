@@ -64,7 +64,7 @@
   position: absolute;
   font-weight: bold;
   box-sizing: border-box;
-  width: 100%;
+  width: fit-content;
   padding: 4px;
   top: 100%;
   z-index: 1;
@@ -83,7 +83,8 @@
 
 .navbar .dropdown-item{
   box-sizing: border-box;
-  width: 100%;
+  width: fit-content;
+  white-space: nowrap;
   text-align: left;
   padding: 4px;
   color: var(--text-color);
