@@ -18,7 +18,7 @@ const Home = () => {
           </Link>
         </div>
 
-        <img className="homePageImage" src={profilePicture} alt="Me">
+        <img className="homePageImage dropshadow" src={profilePicture} alt="Me">
 
         </img>
       </section>
