@@ -25,7 +25,7 @@
 .navbar{
   display: flex;
   align-items: center;
-  padding: 2% var(--content-margin) 2% var(--content-margin);
+  padding: 1% var(--content-margin) 1% var(--content-margin);
   max-width: 100%;
   border-bottom: 4px solid var(--highlight-color);
 }
