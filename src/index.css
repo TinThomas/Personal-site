@@ -4,7 +4,6 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: "#333";
   background-color: var(--main-bg-color);
-
 }
 
 #root{
@@ -17,6 +16,8 @@
 }
 
 .App{
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
@@ -26,8 +27,7 @@
   align-items: center;
   padding: 2% var(--content-margin) 2% var(--content-margin);
   max-width: 100%;
-  margin-bottom: 1vw;
-  /*border-bottom: 4px solid var(--block-color);*/
+  border-bottom: 4px solid var(--highlight-color);
 }
 
 .navbar h1 {
@@ -106,6 +106,9 @@
 
 .homePage{
   height: 100%;
+  background-image: url("/src/Images/Panorama.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .homePageContent{
@@ -125,20 +128,20 @@
 
 .homeNavButtons{
   text-align: left;
-  /*margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 10%;
-  margin-right: 20px;*/
   width: fit-content;
   height: fit-content;
   display: flex;
   flex-direction: column;
   border-left: 4px solid var(--highlight-color);
+  background-color: transparent;
+}
+
+.homeNavButtons a{
+  background-color: transparent;
 }
 
 .navButton{
   color: var(--main-bg-color);
-  /*margin: 10px;*/
   height: 50px;
   width: 150px;
   font-size: 1.5em;
