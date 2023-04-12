@@ -110,12 +110,6 @@
   background-size: 100vw;
 }
 
-.homePageContent{
-  display: flex;
-  justify-content: space-between;
-  margin: 0 5% 0 5%;
-}
-
 .homePageImage{
   height: 60vh;
   border-radius: 10px;
