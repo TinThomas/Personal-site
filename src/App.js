@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Spaceship from './Portfolio/Spaceship';
 import UnderConstruction from './UnderConstruction';
+import About from './About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <div className="content">
           <Routes>
             <Route path='/' element={<Home/>} />
+            <Route path='/About' element={<About/>} />
             <Route path='/Spaceship' element={<Spaceship/>}></Route>
             <Route path='/pending-construction' element={<UnderConstruction/>} />
           </Routes>

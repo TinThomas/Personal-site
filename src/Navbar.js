@@ -6,7 +6,8 @@ const Navbar = () => {
       <h1>Thomas Bærentsen</h1>
       <div className="links">
         <Link to="/">Home</Link>
-        <Link to="/pending-construction">About me</Link>
+        <Link to="/About">About me</Link>
+
         <div className="dropdown">
           <Link to="/pending-construction">Portfolio</Link>
           <div className="dropdown-content">
