@@ -1,7 +1,10 @@
+import profilePicture from "./Images/Profile-picture-small.jpg"
+
 const About = () => {
   return (
     <div className="About">
-      <h1>This is the about me page</h1>
+      <div className="About-contents">Content goes here</div>
+      <img src={profilePicture} alt="Profile" />
     </div>
   );
 }
