@@ -170,5 +170,16 @@ code {
 }
 
 .About{
+  width: 100%;
   display: flex;
+  justify-content: space-around;
+}
+
+.About-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.About-image{
+  height: 50vh;
 }
