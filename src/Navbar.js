@@ -14,9 +14,6 @@ const Navbar = () => {
             <Link to="/pending-construction" className="dropdown-item">Item two</Link>
           </div>
         </div>
-
-
-        <Link to="/pending-construction">Contact</Link>
       </div>
     </nav>
   );
