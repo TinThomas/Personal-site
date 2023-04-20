@@ -99,8 +99,10 @@ p{
 
 .content {
   flex-grow: 1;
-  width: 100vw;
+  width: 90vw;
   display: flex;
+  margin-left: var(--content-margin);
+  margin-right: var(--content-margin);
 }
 
 .pageHeader{
@@ -190,5 +192,6 @@ code {
 
 .About-image{
   height: 50vh;
+  margin: 10px;
   box-shadow: 10px 10px 4px 0px var(--highlight-color);
 }
