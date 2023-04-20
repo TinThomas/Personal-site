@@ -170,6 +170,7 @@ code {
 }
 
 .About{
+  margin-top: 2vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -182,4 +183,5 @@ code {
 
 .About-image{
   height: 50vh;
+  box-shadow: 10px 10px 4px 0px var(--highlight-color);
 }
