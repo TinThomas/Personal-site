@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="homePage">
         <div className="homeNavButtons frosted">
-          <Link to="/pending-construction">
+          <Link to="/About">
             <button className="navButton">About me</button>
           </Link>
           <Link to="/pending-construction">
