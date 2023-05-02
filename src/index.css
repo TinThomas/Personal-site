@@ -111,7 +111,7 @@ p{
 
 .frosted{
   border-radius: 8px;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(4px);
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -133,7 +133,7 @@ p{
 }
 
 .dropshadow{
-  box-shadow: 5px 5px 5px var(--highlight-color-weak);
+  box-shadow: 5px 5px 5px var(--block-color);
 }
 
 .homeNavButtons{
@@ -199,4 +199,29 @@ code {
   height: 50vh;
   margin: 10px;
   box-shadow: 10px 10px 4px 0px var(--highlight-color);
+}
+
+.portfolioBlock{
+  display: flex;
+  align-items: center;
+  margin-left: var(--content-margin);
+  margin-right: var(--content-margin);
+  background-color: transparent;
+}
+
+.portfolioBlock p{
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.portfolioBlock img{
+  border-radius: 8px;
+  height: 40vh;
+  margin: 10px;
+}
+
+.portfolioPage{
+  background-image: url("/src/Images/Panorama.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
