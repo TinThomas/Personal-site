@@ -99,10 +99,7 @@ p{
 
 .content {
   flex-grow: 1;
-  width: 90vw;
   display: flex;
-  margin-left: var(--content-margin);
-  margin-right: var(--content-margin);
 }
 
 .pageHeader{
@@ -110,6 +107,14 @@ p{
   margin-left: 10%;
   width: fit-content;
   text-align: left;
+}
+
+.frosted{
+  border-radius: 8px;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .homePage{

@@ -4,7 +4,7 @@ import profilePicture from "./Images/Profile-picture-small.jpg"
 const Home = () => {
   return (
     <div className="homePage">
-        <div className="homeNavButtons">
+        <div className="homeNavButtons frosted">
           <Link to="/pending-construction">
             <button className="navButton">About me</button>
           </Link>
