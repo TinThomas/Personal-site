@@ -1,6 +1,13 @@
+import PortfolioBlockRight from "./PortfolioBlockRight";
+
+import content from '../Content/content_en.json'
+import Spaceship_front_led from '../Images/Portfolio/Spaceship/Spaceship_front_led.jpg'
+
 const Spaceship = () => {
   return (
-    <h1>This is the rocket project</h1>
+    <div className="portfolioPage">
+      <PortfolioBlockRight text={content} img={Spaceship_front_led}/>
+    </div>
   );
 }
 
