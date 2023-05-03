@@ -240,4 +240,6 @@ code {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  text-decoration: none;
+  color: var(--text-color);
 }
