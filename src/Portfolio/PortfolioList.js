@@ -4,7 +4,7 @@ import Spaceship_image from '../Images/Portfolio/Spaceship/Spaceship_front_led.j
 const PortfolioList = () => {
   return (
     <div className="portfolioList">
-      <section>
+      <section className='frosted'>
         <p>{content.spaceship_title}</p>
         <img src={Spaceship_image} alt='The spaceship toy from the front, with lit up LEDs'></img>
       </section>
