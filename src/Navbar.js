@@ -1,4 +1,5 @@
 import {Link} from "react-router-dom";
+import content from './Content/content_en.json'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
         <div className="dropdown">
           <Link to="/Portfolio">Portfolio</Link>
           <div className="dropdown-content">
-            <Link to="/Spaceship" className="dropdown-item">Spaceship Toy</Link>
+            <Link to="/Spaceship" className="dropdown-item">{content.spaceship_title}</Link>
             <Link to="/pending-construction" className="dropdown-item">Item two</Link>
           </div>
         </div>
