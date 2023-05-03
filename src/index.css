@@ -232,20 +232,31 @@ code {
 
 .portfolioList{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   margin-top: 8px;
   margin-left: var(--content-margin);
   margin-right: var(--content-margin);
 }
 
-.portfolioList a{
+.portfolioItem{
+  height: 300px;
+  width: 300px;
+  margin: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .portfolioList a{
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-decoration: none;
   color: var(--text-color);
 }
+
+
 
 .portfolioList a:hover{
   background-color: var(--frosted-hover);
@@ -257,4 +268,4 @@ code {
 
 .portfolioList a img{
   height: 30vh;
-}
+} */
