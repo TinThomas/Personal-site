@@ -226,3 +226,17 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.portfolioList{
+  display: flex;
+  flex-direction: column;
+
+  margin-left: var(--content-margin);
+  margin-right: var(--content-margin);
+}
+
+.portfolioList section{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
