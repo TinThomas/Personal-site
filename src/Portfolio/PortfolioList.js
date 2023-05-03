@@ -6,7 +6,7 @@ const PortfolioList = () => {
     <div className="portfolioList">
       <section>
         <p>{content.spaceship_title}</p>
-        <img src={Spaceship_image}></img>
+        <img src={Spaceship_image} alt='The spaceship toy from the front, with lit up LEDs'></img>
       </section>
     </div>
   );
