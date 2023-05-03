@@ -236,7 +236,7 @@ code {
   margin-right: var(--content-margin);
 }
 
-.portfolioList section{
+.portfolioList a{
   display: flex;
   align-items: center;
   justify-content: flex-end;
