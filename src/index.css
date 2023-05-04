@@ -251,18 +251,23 @@ code {
   background-position: center;
   text-decoration: none;
   position: relative;
+  transition: all 0.5s;
 }
 
-.portfolioItem:hover::before{
+.portfolioItem:hover p{
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.portfolioItem:hover{
   content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 105%;
-  height: 105%;
+  transform: scale(1.05);
   background: inherit;
-  filter: blur(4px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*filter: blur(4px);*/
+  transition: all 0.5s;
 }
 
 .portfolioItem p{
@@ -270,6 +275,7 @@ code {
   font-size: 2.2em;
   font-weight: bold;
   z-index: 1;
+  transition: all 0.5s;
 }
 
 
