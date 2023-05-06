@@ -13,7 +13,7 @@ const Navbar = () => {
           <Link to="/Portfolio">Portfolio</Link>
           <div className="dropdown-content">
             <Link to="/Spaceship" className="dropdown-item">{content.spaceship_title}</Link>
-            <Link to="/pending-construction" className="dropdown-item">Item two</Link>
+            <Link to="/KLS" className="dropdown-item">{content.KLS_title}</Link>
           </div>
         </div>
       </div>
