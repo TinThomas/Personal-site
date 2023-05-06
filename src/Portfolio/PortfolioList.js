@@ -1,7 +1,7 @@
 import content from '../Content/content_en.json'
 import PortfolioListItem from './PortfolioListItem';
 import Spaceship_image from '../Images/Portfolio/Spaceship/Spaceship_front_led.jpg'
-import KLS_image from '../Images/Portfolio/KLS/Final_prototype.jpg'
+import KLS_image from '../Images/Portfolio/KLS/Render.png'
 
 const PortfolioList = () => {
   return (
