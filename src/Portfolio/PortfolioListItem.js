@@ -5,6 +5,7 @@ const PortfolioListItem = ({name, link, imgsrc}) => {
     <Link to={link} className='portfolioItem'
       style={{backgroundImage: `url(${imgsrc})`}}>
         <p>{name}</p>
+        <div class="overlay"></div>
     </Link>
   );
 }
