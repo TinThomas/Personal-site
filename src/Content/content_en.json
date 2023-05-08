@@ -7,5 +7,6 @@
   "spaceship_paragraph_2": "While the electrical and programmatical parts of the project weren't particularly complex compared to other projects, we learned to see the value of rapid prototyping and properly planning in advance. During the project we put off the design of the mechanical innards of the rocket until the very end, which resulted in us having to put in a lot of extra work hours in the final week to make the product work in time.",
 
   "KLS_title": "KLS",
-  "KLS_paragraph_1": "The K-nearest-neighbour Learning System was our product for the IT Product Design Project course, in which our case was to teach gymnasium students about machine learning. As the name implies we chose the K-nearest-neighbour algorithm, because of its relative simplicity."
+  "KLS_paragraph_1": "The K-nearest-neighbour Learning System was our product for the IT Product Design Project course, in which our case was to teach gymnasium students about machine learning. As the name implies we chose the K-nearest-neighbour algorithm, as it would be simple to implement, and easy to teach to students.",
+  "KLS_paragraph_2": "As part of the project we developed a business model for the product based on an imagined market analysis. Since we did not perform any actual market research, the exercise mainly served to familiarize ourselves with the contents of a business model canvas."
 }
