@@ -1,6 +1,6 @@
 import content from '../Content/content_en.json'
-import PortfolioBlockRight from "./PortfolioBlockRight";
-import PortfolioBlockLeft from './PortfolioBlockLeft';
+import PortfolioBlockRight from "./Components/PortfolioBlockRight";
+import PortfolioBlockLeft from './Components/PortfolioBlockLeft';
 
 import Final_prototype from '../Images/Portfolio/KLS/Final_prototype.jpg'
 import bms from '../Images/Portfolio/KLS/bms.png'

@@ -7,6 +7,7 @@ import UnderConstruction from './UnderConstruction';
 import About from './About';
 import PortfolioList from './Portfolio/PortfolioList';
 import KLS from './Portfolio/KLS';
+import SOS_Lamp from './Portfolio/SOS_Lamp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/Portfolio' element={<PortfolioList/>} />
             <Route path='/Spaceship' element={<Spaceship/>}></Route>
             <Route path='/KLS' element={<KLS/>}></Route>
+            <Route path='/ShapeChangeLamp' element={<SOS_Lamp/>}></Route>
             <Route path='/pending-construction' element={<UnderConstruction/>} />
           </Routes>
         </div>
@@ -27,5 +29,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

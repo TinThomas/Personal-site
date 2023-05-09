@@ -8,5 +8,9 @@
 
   "KLS_title": "KLS",
   "KLS_paragraph_1": "The K-nearest-neighbour Learning System was our product for the IT Product Design Project course, in which our case was to teach gymnasium students about machine learning. As the name implies we chose the K-nearest-neighbour algorithm, as it would be simple to implement, and easy to teach to students.",
-  "KLS_paragraph_2": "As part of the project we developed a business model for the product based on an imagined market analysis. Since we did not perform any actual market research, the exercise mainly served to familiarize ourselves with the contents of a business model canvas."
+  "KLS_paragraph_2": "As part of the project we developed a business model for the product based on an imagined market analysis. Since we did not perform any actual market research, the exercise mainly served to familiarize ourselves with the contents of a business model canvas.",
+
+  "SOS_title": "Shape changing lamp",
+  "SOS_paragraph_1": "This is lamp paragraph 1 and this is just padding the sentence to make sure the length is right. This is lamp paragraph 1 and this is just padding the sentence to make sure the length is right",
+  "SOS_paragraph_2": "This is lamp paragraph 2 and this is just padding the sentence to make sure the length is right. This is lamp paragraph 2 and this is just padding the sentence to make sure the length is right"
 }

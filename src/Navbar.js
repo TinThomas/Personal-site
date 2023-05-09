@@ -12,6 +12,7 @@ const Navbar = () => {
         <div className="dropdown">
           <Link to="/Portfolio">Portfolio</Link>
           <div className="dropdown-content">
+            <Link to="/ShapeChangeLamp" className="dropdown-item">{content.SOS_title}</Link>
             <Link to="/Spaceship" className="dropdown-item">{content.spaceship_title}</Link>
             <Link to="/KLS" className="dropdown-item">{content.KLS_title}</Link>
           </div>
