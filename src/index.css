@@ -3,7 +3,7 @@
   margin: 0;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: "#333";
-  background-color: var(--main-bg-color);
+  background-color: transparent;
 }
 
 #root{
@@ -104,6 +104,9 @@ p{
 .content {
   flex-grow: 1;
   display: flex;
+  background-image: url("/src/Images/Panorama.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pageHeader{
@@ -122,11 +125,7 @@ p{
 }
 
 .homePage{
-  /*height: 100%;*/
   flex: 1;
-  background-image: url("/src/Images/Panorama.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   align-items: center;
 }
@@ -223,12 +222,6 @@ code {
   border-radius: 8px;
   height: 40vh;
   margin: 10px;
-}
-
-.portfolioPage{
-  background-image: url("/src/Images/Panorama.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .portfolioList{
