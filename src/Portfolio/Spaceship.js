@@ -1,9 +1,9 @@
-import PortfolioBlockRight from "./PortfolioBlockRight";
+import PortfolioBlockRight from "./Components/PortfolioBlockRight";
+import PortfolioBlockLeft from "./Components/PortfolioBlockLeft";
 
 import content from '../Content/content_en.json'
 import Spaceship_front_led from '../Images/Portfolio/Spaceship/Spaceship_front_led.jpg'
 import Spaceship_exploded from '../Images/Portfolio/Spaceship/Spaceship_exploded.png'
-import PortfolioBlockLeft from "./PortfolioBlockLeft";
 
 const Spaceship = () => {
   return (
