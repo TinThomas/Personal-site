@@ -1,5 +1,6 @@
 import './App.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
+import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Spaceship from './Portfolio/Spaceship';
@@ -10,12 +11,20 @@ import KLS from './Portfolio/KLS';
 import SOSLamp from './Portfolio/SOS_Lamp';
 
 function App() {
+  const [navbarHeight, setNavbarHeight] = useState(0);
+
+  useEffect(() => {
+    const navbarContainer = document.querySelector('.navbar');
+    const navbarHeight = navbarContainer.offsetHeight;
+    setNavbarHeight(navbarHeight);
+  }, []);
+
   return (
     <Router>
       <div className="App">
         <Navbar />
         <div className='backgroundContainer'></div>
-        <div className="content">
+        <div className="content" style={{ marginTop: `${navbarHeight}px` }}>
           <Routes>
             <Route path='/' element={<Home/>} />
             <Route path='/About' element={<About/>} />
