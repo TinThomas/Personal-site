@@ -45,6 +45,10 @@ p{
   background-color: var(--main-bg-color);
 }
 
+.navbar.scrolled{
+  background-color: blue;
+}
+
 .navbar h1 {
   font-size: 2em;
   color: var(--text-color);
