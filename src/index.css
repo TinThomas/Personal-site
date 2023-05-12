@@ -108,12 +108,20 @@ p{
   border-left: 0px solid var(--highlight-color);
 }
 
-.content {
-  flex-grow: 1;
-  display: flex;
+.backgroundContainer{
+  position: fixed;
   background-image: url("/src/Images/Panorama.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  position: relative;
 }
 
 .pageHeader{

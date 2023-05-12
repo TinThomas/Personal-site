@@ -14,6 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        <div className='backgroundContainer'></div>
         <div className="content">
           <Routes>
             <Route path='/' element={<Home/>} />
