@@ -33,11 +33,15 @@ p{
 }
 
 .navbar{
+  position: fixed;
   display: flex;
   align-items: center;
+  z-index: 100;
+  width: 100%;
   padding: 1% var(--content-margin) 1% var(--content-margin);
   max-width: 100%;
   border-bottom: 4px solid var(--highlight-color);
+  background-color: var(--main-bg-color);
 }
 
 .navbar h1 {
