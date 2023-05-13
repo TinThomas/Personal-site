@@ -43,10 +43,12 @@ p{
   max-width: 100%;
   border-bottom: 4px solid var(--highlight-color);
   background-color: var(--main-bg-color);
+  transition: all 0.3s;
 }
 
 .navbar.scrolled{
-  background-color: blue;
+  padding: 0px var(--content-margin) 0px var(--content-margin);
+  transition: all 0.3s;
 }
 
 .navbar h1 {
