@@ -12,9 +12,6 @@ const SOS_Lamp = () => {
       <PortfolioBlockRight text={content.SOS_paragraph_1} img={full}/>
       <PortfolioBlockLeft text={content.SOS_paragraph_2} img={motion}/>
       <PortfolioBlockRight text={content.SOS_paragraph_3} img={servos}/>
-      <PortfolioBlockRight text={content.SOS_paragraph_3} img={servos}/>
-      <PortfolioBlockRight text={content.SOS_paragraph_3} img={servos}/>
-      <PortfolioBlockRight text={content.SOS_paragraph_3} img={servos}/>
     </div>
   );
 }
