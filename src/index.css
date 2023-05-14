@@ -10,7 +10,7 @@
 
 #root{
   --main-bg-color: #e1e1e1;
-  --highlight-color: rgb(118, 0, 196);
+  --highlight-color: rgb(100, 100, 100);
   --highlight-color-weak: rgba(118, 0, 196, 0.25);
   --block-color: rgb(74, 74, 74);
   --text-color: rgb(71, 71, 71);
