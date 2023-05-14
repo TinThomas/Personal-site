@@ -96,10 +96,6 @@ p{
   background-color: var(--main-bg-color);
 }
 
-/* .dropdown:hover{
-  background-color: var(--highlight-color-weak);
-} */
-
 .dropdown:hover .dropdown-content{
   display: flex;
   flex-direction: column;
@@ -321,26 +317,3 @@ code {
   z-index: 1;
   transition: all 0.5s;
 }
-
-
-/* .portfolioList a{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-decoration: none;
-  color: var(--text-color);
-}
-
-
-
-.portfolioList a:hover{
-  background-color: var(--frosted-hover);
-}
-
-.portfolioList a p{
-  font-size: 4em;
-}
-
-.portfolioList a img{
-  height: 30vh;
-} */
