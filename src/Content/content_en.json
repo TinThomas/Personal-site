@@ -1,17 +1,17 @@
 {
-  "intro_paragraph_title": "About me",
+  "intro_paragraph_title": "About Me",
   "intro_paragraph_body": "As a student of IT-product development, I am skilled in developing and designing physical products that incorporate digital technology. With a focus on creating user-friendly products, I have a deep understanding of user experience and user interface design principles that I incorporate into my work. I am proficient in programming languages such as Java and JavaScript, and I have experience working with databases, APIs, and frameworks, as well as with getting ChatGPT to write my CV intro. As a team player, I enjoy collaborating with others to achieve project goals, and I am committed to continuous learning and improvement in my field.",
 
   "Languages_and_frameworks_title": "Languages and Frameworks",
   "Languages_and_frameworks_body": "I primarily have experience with Java, C#, React, JavaScript. Besides these I have worked to a lesser extent with the .NET framework, C, C++, Python, Go, Vue, SQL, and LaTeX.",
 
   "tools_and_technologies_title": "Tools and Technologies",
-  "tools_and_technologies_body": "From two years of Software Technology Engineering and three years of IT Product Development I have experience with many different aspects of development. Besides courses like Software Engineering and Architechture - where I worked as an instructor - I have a lot of experience with embedded systems and electrical systems. I have worked with Arduino, Raspberry Pi, the ATMega2560 microcontroller, and ESP32. In combination with these I have designed and built electrical systems both on breadboards and as PCBs, and worked with many different sensors and actuators such as servos and steppers, ultrasound sensors, optical sensors, and piezoresistive fabric. Additionally, I have used 3D printing a lot (and own one myself), so I have experience using both Fusion360 and SolidWorks to design parametric components, as well as with using Adobe Illustrator to create designs for laser cutting.",
+  "tools_and_technologies_body": "From two years of Software Technology Engineering and three years of IT Product Development I have experience with many different aspects of development. Besides courses like Software Engineering and Architechture - where I worked as an instructor - I have a lot of experience with embedded systems and electrical systems. I have worked with Arduino, Raspberry Pi, the ATMega2560 microcontroller, and ESP32. In combination with these I have designed and built electrical systems both on breadboards and as PCBs, and worked with many different sensors and actuators such as servos and steppers, ultrasound sensors, optical sensors, and piezoresistive fabric. Additionally, I regularly use either Fusion360 or SolidWorks to design parametric models for 3D printing for both school projects and personal enjoyment, and I use Adobe Illustrator to create designs for laser cutting.",
 
-  "work_methods_title": "Workflow and methodologies",
+  "work_methods_title": "Workflow and Methodologies",
   "work_methods_body": "I completed a two-day, eight hour SCRUM course at Systematic, and I have experience working with SCRUM in teams of up to eight people. As part of the Experimental System Development course I have performed ethnographic field studies in combination with other techniques to achieve a high degree of user cooperation when developing a calendar system for a dentists office. I also have experience with rapid- and experience prototyping for developing products.",
 
-  "Contact_title": "Contact me",
+  "Contact_title": "Contact Me",
   "Contact_body_email": " or E-mail me at ",
   "Contact_body_linkedin": "Add me on LinkedIn: ",
 
