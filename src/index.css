@@ -217,14 +217,28 @@ code {
 .About-contents{
   display: flex;
   flex-direction: column;
-  margin: 20px;
+
   height: fit-content;
   padding: 20px;
 }
 
+.About-contents p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.AboutBlock{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.AboutBlock .title{
+  font-weight: bold;
+}
+
 .About-image{
   height: 50vh;
-  margin: 10px;
+  margin: 20px;
   box-shadow: 10px 10px 4px 0px var(--highlight-color);
 }
 
