@@ -12,7 +12,7 @@ const About = () => {
 
         <AboutBlock title={content.Languages_and_frameworks_title} body={content.Languages_and_frameworks_body}></AboutBlock>
 
-        <AboutBlock title={content.Skills_and_tools_title} body={content.Skills_and_tools_body}></AboutBlock>
+        <AboutBlock title={content.tools_and_technologies_title} body={content.tools_and_technologies_body}></AboutBlock>
 
       </div>
       <img className="About-image" src={profilePicture} alt="Profile" />
