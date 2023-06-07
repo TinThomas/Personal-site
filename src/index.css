@@ -73,7 +73,6 @@ p{
 
 .navbar a:hover {
   color: var(--highlight-color);
-  background-color: var(--frosted-hover);
 }
 
 .dropdown{
@@ -102,11 +101,16 @@ p{
 
 .navbar .dropdown-item{
   box-sizing: border-box;
-  width: fit-content;
+  width: auto;
   text-align: left;
   color: var(--text-color);
   background-color: #e1e1e100;
   border-left: 0px solid var(--highlight-color);
+  margin: 0;
+}
+
+.navbar .dropdown-item:hover{
+  background-color: var(--frosted-hover);
 }
 
 .backgroundContainer{
