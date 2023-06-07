@@ -10,9 +10,6 @@ const Home = () => {
           <Link to="/Portfolio">
             <button className="navButton">Portfolio</button>
           </Link>
-          <Link to="/pending-construction">
-            <button className="navButton">Contact</button>
-          </Link>
         </div>
     </div>
   );
