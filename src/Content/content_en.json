@@ -11,6 +11,10 @@
   "work_methods_title": "Workflow and methodologies",
   "work_methods_body": "I completed a two-day, eight hour SCRUM course at Systematic, and I have experience working with SCRUM in teams of up to eight people. As part of the Experimental System Development course I have performed ethnographic field studies in combination with other techniques to achieve a high degree of user cooperation when developing a calendar system for a dentists office. I also have experience with rapid- and experience prototyping for developing products.",
 
+  "Contact_title": "Contact me",
+  "Contact_body_email": " or E-mail me at ",
+  "Contact_body_linkedin": "Add me on LinkedIn: ",
+
   "spaceship_title": "Spaceship toy",
   "spaceship_paragraph_1": "The spaceship toy was our project for the course Physical Computing, which was focused on using sensors and actuators to make a toy of our own design. We elected to make a spaceship which could lower its wings when landing, as well as fire a projectile the the flashing LEDs were fully engaged. The ship was built of a combination of 3D-printed and laser cut parts, and was controlled by an Atmega328p microcontroller.",
   "spaceship_paragraph_2": "While the electrical and programmatical parts of the project weren't particularly complex compared to other projects, we learned to see the value of rapid prototyping and properly planning in advance. During the project we put off the design of the mechanical innards of the rocket until the very end, which resulted in us having to put in a lot of extra work hours in the final week to make the product work in time.",

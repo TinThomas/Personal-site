@@ -2,6 +2,7 @@ import profilePicture from "./Images/Profile-picture-small.jpg"
 import content from './Content/content_en.json'
 
 import AboutBlock from "./AboutBlock";
+import Contact from "./Contact";
 
 const About = () => {
   return (
@@ -13,6 +14,7 @@ const About = () => {
         <AboutBlock title={content.tools_and_technologies_title} body={content.tools_and_technologies_body}></AboutBlock>
         <AboutBlock title={content.Languages_and_frameworks_title} body={content.Languages_and_frameworks_body}></AboutBlock>
         <AboutBlock title={content.work_methods_title} body={content.work_methods_body}></AboutBlock>
+        <Contact></Contact>
 
       </div>
       <img className="About-image" src={profilePicture} alt="Profile" />
