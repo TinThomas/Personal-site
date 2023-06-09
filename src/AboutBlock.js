@@ -1,7 +1,7 @@
 const AboutBlock = ({title, body}) => {
   return (
     <div className="AboutBlock frosted">
-      <p className="title">{title}</p>
+      <h2 className="title">{title}</h2>
       <p>{body}</p>
     </div>
   );
