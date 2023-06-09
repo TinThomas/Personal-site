@@ -345,3 +345,16 @@ code {
   justify-content: space-evenly;
   width: 100%;
 }
+
+.WorkBlock{
+  width: 100%;
+  margin: 40px;
+}
+
+.WorkBlock h3{
+  margin-top: 10px;
+}
+
+.WorkBlock p{
+  text-align: center;
+}
