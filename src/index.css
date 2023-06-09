@@ -180,7 +180,8 @@ p{
 
 .navButton{
   color: var(--main-bg-color);
-  height: 50px;
+  min-height: 50px;
+  height: fit-content;
   width: 150px;
   font-size: 1.5em;
   border-radius: 5px;
@@ -337,4 +338,10 @@ code {
   position: relative;
   z-index: 1;
   padding-bottom: 0;
+}
+
+.EducationAndWork{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
