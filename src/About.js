@@ -3,6 +3,7 @@ import content from './Content/content_en.json'
 
 import AboutBlock from "./AboutBlock";
 import Contact from "./Contact";
+import EducationAndWork from "./EducationAndWork";
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
         <AboutBlock title={content.tools_and_technologies_title} body={content.tools_and_technologies_body}></AboutBlock>
         <AboutBlock title={content.Languages_and_frameworks_title} body={content.Languages_and_frameworks_body}></AboutBlock>
         <AboutBlock title={content.work_methods_title} body={content.work_methods_body}></AboutBlock>
+        <EducationAndWork></EducationAndWork>
         <Contact></Contact>
 
       </div>

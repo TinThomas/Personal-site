@@ -33,7 +33,6 @@ function App() {
             <Route path='/Spaceship' element={<Spaceship/>}></Route>
             <Route path='/KLS' element={<KLS/>}></Route>
             <Route path='/ShapeChangeLamp' element={<SOSLamp/>}></Route>
-            <Route path='/EducationAndWork' element={<EducationAndWork/>}></Route>
             <Route path='/pending-construction' element={<UnderConstruction/>} />
           </Routes>
         </div>
