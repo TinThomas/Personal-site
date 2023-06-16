@@ -9,7 +9,6 @@ import About from './About';
 import PortfolioList from './Portfolio/PortfolioList';
 import KLS from './Portfolio/KLS';
 import SOSLamp from './Portfolio/SOS_Lamp';
-import EducationAndWork from './EducationAndWork';
 
 function App() {
   const [navbarHeight, setNavbarHeight] = useState(0);
