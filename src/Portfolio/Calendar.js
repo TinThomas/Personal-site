@@ -7,8 +7,8 @@ import Prototype from '../Images/Portfolio/Calendar/Prototype.png'
 const Calendar = () => {
   return (
     <div className="portfolioPage">
-    <PortfolioBlockRight text={content.Bachelor_paragraph_1} img={Prototype}/>
-    <PortfolioBlockLeft text={content.Bachelor_paragraph_2} img={User}/>
+    <PortfolioBlockRight text={content.Calendar_paragraph_1} img={Prototype}/>
+    <PortfolioBlockLeft text={content.Calendar_paragraph_2} img={User}/>
     </div>
   );
 }
