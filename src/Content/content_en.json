@@ -29,5 +29,7 @@
   "SOS_paragraph_3": "The lamp functioned using three servos with wheels attached to strings, which would cause the rings to rotate around a brass rod. It was controlled through a web server hosted by an ESP32 microcontroller, which in turn controlled the lights, servos, and speaker. The ESP32 was powered by a power bank, while the servos were powered seperately with a variable power supply in order to eliminate electrical interference.",
 
   "Bachelor_title": "Bachelor Project",
-  "Bachelor_paragraph_1": "This is a cool project which I will write more about later when this all works as intended."
+  "Bachelor_paragraph_1": "My bachelor project, An Evaluation of Head, Hand and Voice Input for Menu-based Selection Tasks in Virtual Reality, consists of a Virtual Reality city, in which we tasked twelve study participants to complete a series of simple tasks. The project encompasses three input modalities, a head pointer, a finger pointer, and a natural speech recognition system, and the participants will complete the tasks once for each modality.",
+  "Bachelor_paragraph_2": "The study focuses on comparing the three input modalities both quantitavely and qualitavely. Quantitavely we look at the average task completion speed for each modality, as well as at the participants' responses to the NASA Task Load Index questionaire. Qualitatively, the participants are asked to describe pros and cons for each modality, as well as to decide their favorite, and their resoning for chosing it."
+
 }
