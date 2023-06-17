@@ -7,6 +7,7 @@ const Bachelor = () => {
   return (
     <div className="portfolioPage">
     <PortfolioBlockRight text={content.Bachelor_paragraph_1} img={Selection}/>
+    <PortfolioBlockLeft text={content.Bachelor_paragraph_1} img={Selection}/>
   </div>
   );
 }
