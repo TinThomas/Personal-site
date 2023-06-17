@@ -31,6 +31,7 @@ const Navbar = () => {
             <Link to="/ShapeChangeLamp" className="dropdown-item">{content.SOS_title}</Link>
             <Link to="/Spaceship" className="dropdown-item">{content.spaceship_title}</Link>
             <Link to="/KLS" className="dropdown-item">{content.KLS_title}</Link>
+            <Link to="/BachelorProject" className="dropdown-item">{content.Bachelor_title}</Link>
           </div>
         </div>
       </div>

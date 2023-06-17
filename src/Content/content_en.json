@@ -26,5 +26,8 @@
   "SOS_title": "Shape changing lamp",
   "SOS_paragraph_1": "The TheraLamp was our project for the course Shape Changing Objects and Spaces. The lamp was designed as a social robot to serve as a couples counsellor for simple relationship troubles. The lamp would be camouflaged as a regular ceiling lamp until activated, at which point it would be able to lead a conversation with two partners sitting at a table. The robot was developed as part of an interdisciplinary project with the philosophy course Social Robots, and was designed to lead a socratic dialogue developed by the students of that course.",
   "SOS_paragraph_2": "When activated, the inner ring would focus on the person the lamp was speaking to, while the outer two undulated slowly, to give the robot a sense of life. When the robot was listening, the outer ring would instead stay still while the inner two moved.",
-  "SOS_paragraph_3": "The lamp functioned using three servos with wheels attached to strings, which would cause the rings to rotate around a brass rod. It was controlled through a web server hosted by an ESP32 microcontroller, which in turn controlled the lights, servos, and speaker. The ESP32 was powered by a power bank, while the servos were powered seperately with a variable power supply in order to eliminate electrical interference."
+  "SOS_paragraph_3": "The lamp functioned using three servos with wheels attached to strings, which would cause the rings to rotate around a brass rod. It was controlled through a web server hosted by an ESP32 microcontroller, which in turn controlled the lights, servos, and speaker. The ESP32 was powered by a power bank, while the servos were powered seperately with a variable power supply in order to eliminate electrical interference.",
+
+  "Bachelor_title": "Bachelor Project",
+  "Bachelor_paragraph_1": "This is a cool project which I will write more about later when this all works as intended."
 }
