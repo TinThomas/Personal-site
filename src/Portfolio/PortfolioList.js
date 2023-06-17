@@ -4,6 +4,7 @@ import Spaceship_image from '../Images/Portfolio/Spaceship/Spaceship_front_led.j
 import KLS_image from '../Images/Portfolio/KLS/Render.png'
 import SOS_image from '../Images/Portfolio/SOS/Lamp_full_below.jpg'
 import Bachelor_image from '../Images/Portfolio/Bachelor/Buying-ticket-confirm.png';
+import Calendar_image from '../Images/Portfolio/Calendar/Prototype.png';
 
 const PortfolioList = () => {
   return (
@@ -12,6 +13,7 @@ const PortfolioList = () => {
       <PortfolioListItem name={content.spaceship_title} link='/Spaceship' imgsrc={Spaceship_image} />
       <PortfolioListItem name={content.KLS_title} link='/KLS' imgsrc={KLS_image} />
       <PortfolioListItem name={content.Bachelor_title} link='/BachelorProject' imgsrc={Bachelor_image} />
+      <PortfolioListItem name={content.Calendar_title} link='/Calendar' imgsrc={Calendar_image} />
     </div>
   );
 }

@@ -32,6 +32,7 @@ const Navbar = () => {
             <Link to="/Spaceship" className="dropdown-item">{content.spaceship_title}</Link>
             <Link to="/KLS" className="dropdown-item">{content.KLS_title}</Link>
             <Link to="/BachelorProject" className="dropdown-item">{content.Bachelor_title}</Link>
+            <Link to="/Calendar" className="dropdown-item">{content.Calendar_title}</Link>
           </div>
         </div>
       </div>

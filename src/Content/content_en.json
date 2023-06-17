@@ -30,6 +30,9 @@
 
   "Bachelor_title": "Bachelor Project",
   "Bachelor_paragraph_1": "My bachelor project, An Evaluation of Head, Hand and Voice Input for Menu-based Selection Tasks in Virtual Reality, consists of a Virtual Reality city, in which we tasked twelve study participants to complete a series of simple tasks. The project encompasses three input modalities, a head pointer, a finger pointer, and a natural speech recognition system, and the participants will complete the tasks once for each modality.",
-  "Bachelor_paragraph_2": "The study focuses on comparing the three input modalities both quantitavely and qualitavely. Quantitavely we look at the average task completion speed for each modality, as well as at the participants' responses to the NASA Task Load Index questionaire. Qualitatively, the participants are asked to describe pros and cons for each modality, as well as to decide their favorite, and their resoning for chosing it."
+  "Bachelor_paragraph_2": "The study focuses on comparing the three input modalities both quantitavely and qualitavely. Quantitavely we look at the average task completion speed for each modality, as well as at the participants' responses to the NASA Task Load Index questionaire. Qualitatively, the participants are asked to describe pros and cons for each modality, as well as to decide their favorite, and their resoning for chosing it.",
+
+  "Calendar_title": "Calendar",
+  "Calendar_paragraph_1": "This is placeholder text"
 
 }
