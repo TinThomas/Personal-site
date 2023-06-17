@@ -13,15 +13,15 @@ const EducationAndWork = () => {
       <div className="WorkBlock frosted">
         <h2>Work</h2>
         <h3>August 2022 - December 2022</h3>
-        <p>Instructor for Software Engineering and Architecture</p>
+        <p>Instructor for Software Engineering and Architecture | 8 hours/week</p>
         <h3>2018 - 2019</h3>
-        <p>Temporary student helper at Wolters Kluwer</p>
+        <p>Temporary student helper at Wolters Kluwer | 2 days/year</p>
         <h3>August 2017 - January 2018</h3>
-        <p>Seasonal worker at Claus Sørensen fishpacking plant</p>
+        <p>Seasonal worker at Claus Sørensen fishpacking plant | 40-50 hours/week</p>
         <h3>2014 - 2015</h3>
-        <p>Service worker at Fakta</p>
+        <p>Service worker at Fakta | 10-15 hours/week</p>
         <h3>2010 - 2012</h3>
-        <p>Piccolo at Advonord</p>
+        <p>Piccolo at Advonord | 8 hours/week</p>
       </div>
     </div>
   );
