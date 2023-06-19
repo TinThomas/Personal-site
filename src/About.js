@@ -1,4 +1,4 @@
-import profilePicture from "./Images/Profile-picture-small.jpg"
+import profilePicture from "./Images/Profile-picture-forest.jpg"
 import content from './Content/content_en.json'
 
 import AboutBlock from "./AboutBlock";
